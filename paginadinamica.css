@@ -8,11 +8,10 @@ body{
 
 main{
     width: 20%;
-    height: 500px;
+    height: 450px;
     margin: auto;
     margin-top: 50px;
     padding: 20px;
-
     border: solid 1px black;
 }
 
@@ -26,14 +25,21 @@ main{
 #tela{
     width: 73%;
     height: 50px;
-    margin-right: 20px;
+    margin-right: 15px;
     border: solid 1px black;
 }
 
 #borracha{
-    width: 20%;
+    width: 21%;
     height: 50px;
+    text-align: center;
     border: solid 1px black;
+}
+
+#eraser{
+    width: 50px;
+    margin-top: 7px;
+    text-align: center;
 }
 
 #linha_um, #linha_dois, #linha_tres, #linha_quatro{
@@ -46,7 +52,7 @@ main{
     width: 20%;
     height: 70px;
     margin-right: 15px;
-    
+    text-align: center;
     border: solid 1px black;
 }
 
@@ -65,3 +71,4 @@ p{
 
     /*border: solid 1px black;*/
 }
+
