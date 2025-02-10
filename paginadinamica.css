@@ -2,4 +2,15 @@ body{
     padding: 0px;
     margin: 0px;
     border: 0px;
+
+    border: solid 1px black;
+
+}
+
+main{
+    width: 35%;
+    height: 800px;
+    margin: auto;
+
+    border: solid 1px black;
 }
