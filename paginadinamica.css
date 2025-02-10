@@ -2,15 +2,65 @@ body{
     padding: 0px;
     margin: 0px;
     border: 0px;
+}
 
+main{
+    width: 25%;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+
+    border: solid 1px black;
+}
+
+#topo{
+    width: 99%;
+    height: 50px;
+    display: flex;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+
+
+#tela{
+    width: 73%;
+    height: 50px;
+    border: solid 1px black;
+}
+
+#borracha{
+    width: 20%;
+    height: 50px;
+    margin-left: 20px;
+    border: solid 1px black;
+}
+
+#opcoes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    border: solid 1px black;
+}
+
+#numbers{
+    width: 73%;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    border: solid 1px black;
+}
+
+.num{
+    width: 27%;
+    height: 50px;
+    margin-right: 10px;
     border: solid 1px black;
 
 }
 
-main{
-    width: 35%;
-    height: 800px;
-    margin: auto;
+.operacoes{
 
-    border: solid 1px black;
 }
